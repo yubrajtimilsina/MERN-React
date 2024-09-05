@@ -1,7 +1,7 @@
 
 function Button() {
     return (
-        <button style ={{backgroundColor:"green",color:"white",padding:'20px'}} >huhu </button>
+        <button style={{backgroundColor:'red',color:'white',padding:'20px'}}>{hehe.huhu} {hehe.haha}</button>
     )
 }
 
