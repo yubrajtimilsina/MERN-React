@@ -1,10 +1,12 @@
-impo
+import Button from "./Button"
 
 
 function Test() {
-    return {
-    
-    }
+    return(
+        <>
+        <Button huhu="Register"/>
+        </>
+    )
 }
 
 export default Test
