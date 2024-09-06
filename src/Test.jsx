@@ -1,7 +1,7 @@
 import Button from "./Button"
 import Card from "./Card"
 
-function Test() {
+function Test(props) {
     const data = {
         name : "Yubraj", 
         age : 21 
