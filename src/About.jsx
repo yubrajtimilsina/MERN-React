@@ -1,6 +1,8 @@
+import Button from "./Button"
+
 function About(){
     return(
-        <h1>About</h1>
+        <Button huhu="About" />
     )
 }
 export default About

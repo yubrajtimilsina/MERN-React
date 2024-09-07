@@ -1,17 +1,13 @@
 import Button from "./Button"
 import Card from "./Card"
 
-function Test(props) {
-    const data = {
-        name : "Yubraj", 
-        age : 21 
-    }
-
+function Test() {
     return(
         <>
-          <Button huhu="Register" />
-          <Button huhu="Login" />
-          <Button huhu="Logout" />
+          <Button huhu="Register" haha={1}/>
+          <Button huhu="Login" haha={2}/>
+          <Button huhu="Logout" haha={3}/>
+          <Card title="Test Page"/>
         </>
     )
 }
