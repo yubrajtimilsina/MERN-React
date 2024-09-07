@@ -9,10 +9,9 @@ function Test(props) {
 
     return(
         <>
-                <Button huhu={data} haha={1} />
-                <Button huhu="Login" haha={2}/>
-                <Button huhu="Logout" haha={3}/>
-                <Card title="Test Page" />
+          <Button huhu="Register" />
+          <Button huhu="Login" />
+          <Button huhu="Logout" />
         </>
     )
 }

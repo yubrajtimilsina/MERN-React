@@ -18,11 +18,7 @@ function Home(){
             </ul>
         </div>
     </nav>
-
-    <Button huhu="Home" haha={23423} />
-    <Card title="Home Page"/>
-    <Card title="Home Page"/>
-    <Card title="Home Page"/>
+    <Button/>
 
     <div className="main-content">
         <div className="container">
