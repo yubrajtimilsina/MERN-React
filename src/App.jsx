@@ -5,6 +5,7 @@ import Home from './Home'
 import About from './About'
 import Contact from './Contact'
 import Test from './Test'
+import UseState from './UseState'
 
 function App() {
   
@@ -15,6 +16,7 @@ function App() {
       <Route path='/about' element={<About />}> </Route>
       <Route path='/contact' element={ <Contact/>}></Route>
       <Route path='/test' element={ <Test />}></Route>
+      <Route path='/useState' element={<UseState />}></Route>
       </Routes>    
     </BrowserRouter>
   )
