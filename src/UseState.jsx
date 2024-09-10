@@ -15,7 +15,7 @@ function UseState(){
         <h1>{count}</h1>
         <button onClick={increaseCount}>+</button>
         <button onClick={decreaseCount}>-</button>
-        <h1></h1>
+        <h1>{count2}</h1>
         </>
     )
 }
