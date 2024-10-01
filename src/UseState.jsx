@@ -18,5 +18,5 @@ function UseState(){
         <h1>{count2}</h1>
         </>
     )
-}
+} 
 export default UseState

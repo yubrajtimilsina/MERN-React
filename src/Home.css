@@ -17,6 +17,8 @@ body {
     background-color: #333;
     color: #fff;
     padding: 10px 0;
+     z-index: 10;
+    position: relative;
 }
 
 .navbar .container {
@@ -68,4 +70,29 @@ body {
 .main-content p {
     font-size: 1.1em;
     margin-bottom: 20px;
+}
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 300px;
+    margin: 20px auto; /* Ensures center alignment */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.card h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.card p {
+    font-size: 1em;
+    margin-bottom: 15px;
 }
